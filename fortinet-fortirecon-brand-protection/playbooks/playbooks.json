@@ -2,16 +2,16 @@
   "type": "workflow_collections",
   "data": [
     {
-      "uuid": "053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+      "uuid": "5a7a0bcf-103c-43a5-9325-e40c80a379cd",
       "@type": "WorkflowCollection",
       "workflows": [
         {
           "@type": "Workflow",
-          "uuid": "c56635fe-6828-40bb-9ed8-9c16054b30ff",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "ab25446d-466a-49ea-8457-1dd22a7ada1a",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "3ec59931-6dd4-4279-8122-08dce41c0c64",
+              "uuid": "0f34fda2-0ce1-4123-afb2-d12919c9bc54",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -28,7 +28,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "15f19772-0e12-46e2-a17d-dc3493da2564",
+              "uuid": "973d89d5-4dbb-49b9-8739-52f3e99e0d87",
               "@type": "WorkflowStep",
               "name": "Get Code Repo Exposures",
               "description": null,
@@ -70,26 +70,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/3ec59931-6dd4-4279-8122-08dce41c0c64",
+          "triggerStep": "/api/3/workflow_steps/0f34fda2-0ce1-4123-afb2-d12919c9bc54",
           "routes": [
             {
-              "uuid": "ec51ab96-e9e3-4c6b-b259-289caa8cacb1",
+              "uuid": "836bf5ce-12a7-4303-be1a-467e69b944b9",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Code Repo Exposures",
-              "sourceStep": "/api/3/workflow_steps/3ec59931-6dd4-4279-8122-08dce41c0c64",
-              "targetStep": "/api/3/workflow_steps/15f19772-0e12-46e2-a17d-dc3493da2564"
+              "sourceStep": "/api/3/workflow_steps/0f34fda2-0ce1-4123-afb2-d12919c9bc54",
+              "targetStep": "/api/3/workflow_steps/973d89d5-4dbb-49b9-8739-52f3e99e0d87"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "c349a256-8aea-4727-bd89-a897beb1761d",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "0e29293f-ea75-479d-bf41-208cc2f9cbb3",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "5e3e4ba7-674b-4eb8-8e86-25a08f9b9feb",
+              "uuid": "a444af89-1f8a-43b6-a15b-abd55ff70186",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -106,7 +106,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "936efd6b-5e7e-4c83-9bf0-d571bb1453d9",
+              "uuid": "afc9e82e-1ad1-4fd9-99d0-0717494e0b27",
               "@type": "WorkflowStep",
               "name": "Get Code Repositories",
               "description": null,
@@ -148,26 +148,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/5e3e4ba7-674b-4eb8-8e86-25a08f9b9feb",
+          "triggerStep": "/api/3/workflow_steps/a444af89-1f8a-43b6-a15b-abd55ff70186",
           "routes": [
             {
-              "uuid": "d5ed1178-4535-42c9-a8b5-f785442c7fff",
+              "uuid": "6f46c840-f8bb-4da8-bd96-f7301b9154cf",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Code Repositories",
-              "sourceStep": "/api/3/workflow_steps/5e3e4ba7-674b-4eb8-8e86-25a08f9b9feb",
-              "targetStep": "/api/3/workflow_steps/936efd6b-5e7e-4c83-9bf0-d571bb1453d9"
+              "sourceStep": "/api/3/workflow_steps/a444af89-1f8a-43b6-a15b-abd55ff70186",
+              "targetStep": "/api/3/workflow_steps/afc9e82e-1ad1-4fd9-99d0-0717494e0b27"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "32df4418-ea04-47d1-a507-f23f70aa19d4",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "bc9e82b5-2d43-4da0-831c-3a58c072ae73",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "86423e10-ede4-4894-92d3-ac676792978a",
+              "uuid": "cbd498f3-454b-4cc0-a1d1-6a71526fea7b",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -184,7 +184,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "64768f36-e1bd-458c-9fef-05c24d5ee60c",
+              "uuid": "5c2b9582-bbcd-4e24-a77e-a13a0cbb0d19",
               "@type": "WorkflowStep",
               "name": "Get Code Repos Statistics",
               "description": null,
@@ -216,26 +216,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/86423e10-ede4-4894-92d3-ac676792978a",
+          "triggerStep": "/api/3/workflow_steps/cbd498f3-454b-4cc0-a1d1-6a71526fea7b",
           "routes": [
             {
-              "uuid": "5ec87f3a-7cad-41bf-a568-4d83e525dde9",
+              "uuid": "e0134ad9-3962-481c-876f-8c8d9db8790c",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Code Repos Statistics",
-              "sourceStep": "/api/3/workflow_steps/86423e10-ede4-4894-92d3-ac676792978a",
-              "targetStep": "/api/3/workflow_steps/64768f36-e1bd-458c-9fef-05c24d5ee60c"
+              "sourceStep": "/api/3/workflow_steps/cbd498f3-454b-4cc0-a1d1-6a71526fea7b",
+              "targetStep": "/api/3/workflow_steps/5c2b9582-bbcd-4e24-a77e-a13a0cbb0d19"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "d8c46a15-e523-43e0-8dcc-d5f44f8ae9a9",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "bdd8e732-6afc-4f32-9070-883f462901db",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "eae6cd25-7081-434b-8aec-9c31794deddf",
+              "uuid": "b0e044a2-c424-4437-8455-14f2dfc9123b",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -252,7 +252,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "381c41c9-83d3-4c7f-b667-7c4891d2a181",
+              "uuid": "cbc3578e-627a-4760-8b51-928c8ace4626",
               "@type": "WorkflowStep",
               "name": "Get Code Repo Matched Domains Statistics",
               "description": null,
@@ -260,10 +260,7 @@
               "arguments": {
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
-                "params": {
-                  "page": "",
-                  "size": ""
-                },
+                "params": [],
                 "version": "2.1.0",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_code_repo_matched_domains_stats",
@@ -287,26 +284,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/eae6cd25-7081-434b-8aec-9c31794deddf",
+          "triggerStep": "/api/3/workflow_steps/b0e044a2-c424-4437-8455-14f2dfc9123b",
           "routes": [
             {
-              "uuid": "5d405823-8e83-4a38-8e50-85f661af3c02",
+              "uuid": "640cf7a3-debe-4294-85f8-d33ba1e025cb",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Code Repo Matched Domains Statistics",
-              "sourceStep": "/api/3/workflow_steps/eae6cd25-7081-434b-8aec-9c31794deddf",
-              "targetStep": "/api/3/workflow_steps/381c41c9-83d3-4c7f-b667-7c4891d2a181"
+              "sourceStep": "/api/3/workflow_steps/b0e044a2-c424-4437-8455-14f2dfc9123b",
+              "targetStep": "/api/3/workflow_steps/cbc3578e-627a-4760-8b51-928c8ace4626"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "9fb225fb-b7f3-40d5-bac9-37fd7d9d7a2b",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "8a836aca-2f90-4230-89a1-52a005d3e63b",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "84c76fae-e626-4bbd-9e66-0475e32e97e7",
+              "uuid": "42a3706e-7980-45e2-b2ee-f568d6024672",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -323,7 +320,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "3eb57763-be71-4ce9-840d-5d326d47a140",
+              "uuid": "68918c6a-8df2-419e-9dc8-594deae527a7",
               "@type": "WorkflowStep",
               "name": "Get Domain Threats",
               "description": null,
@@ -365,26 +362,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/84c76fae-e626-4bbd-9e66-0475e32e97e7",
+          "triggerStep": "/api/3/workflow_steps/42a3706e-7980-45e2-b2ee-f568d6024672",
           "routes": [
             {
-              "uuid": "80573b05-c0c7-4341-a7de-caa15fd6619f",
+              "uuid": "4069888c-0988-4bf2-ae83-da780dfe3162",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Domain Threats",
-              "sourceStep": "/api/3/workflow_steps/84c76fae-e626-4bbd-9e66-0475e32e97e7",
-              "targetStep": "/api/3/workflow_steps/3eb57763-be71-4ce9-840d-5d326d47a140"
+              "sourceStep": "/api/3/workflow_steps/42a3706e-7980-45e2-b2ee-f568d6024672",
+              "targetStep": "/api/3/workflow_steps/68918c6a-8df2-419e-9dc8-594deae527a7"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "111e1d94-b676-4401-b9ad-22a6090da20f",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "d2997ed7-e5b0-4d55-a038-00ac9095fd88",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "34452a76-0bad-4761-bdcc-97d2faf25e77",
+              "uuid": "c069ca8a-914f-4415-890d-9d046ba7d5e1",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -401,7 +398,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "19f50498-26b4-4b51-9701-58be02564c9f",
+              "uuid": "aff10982-57ca-43d9-bb92-e3165d6adfa3",
               "@type": "WorkflowStep",
               "name": "Get Domain Threats By ID",
               "description": null,
@@ -435,26 +432,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/34452a76-0bad-4761-bdcc-97d2faf25e77",
+          "triggerStep": "/api/3/workflow_steps/c069ca8a-914f-4415-890d-9d046ba7d5e1",
           "routes": [
             {
-              "uuid": "dfb9f0ee-0f67-4e1b-b340-3a69526c4176",
+              "uuid": "27a1ce45-290b-4b95-b31b-7ded73423829",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Domain Threats By ID",
-              "sourceStep": "/api/3/workflow_steps/34452a76-0bad-4761-bdcc-97d2faf25e77",
-              "targetStep": "/api/3/workflow_steps/19f50498-26b4-4b51-9701-58be02564c9f"
+              "sourceStep": "/api/3/workflow_steps/c069ca8a-914f-4415-890d-9d046ba7d5e1",
+              "targetStep": "/api/3/workflow_steps/aff10982-57ca-43d9-bb92-e3165d6adfa3"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "e2d617a3-21af-4198-b30b-3d17d984c066",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "c224a6b6-a4ba-4542-bd9d-9ef48b9ac421",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "5dbb15d0-9f91-4b38-8e82-b2afaeee4616",
+              "uuid": "c093d94c-d9d9-469f-9e1f-916d8b8a1512",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -471,7 +468,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "7dbcc92e-26b2-417e-838a-9577303c47f4",
+              "uuid": "a8980230-f193-415c-927d-b07c1b8d592c",
               "@type": "WorkflowStep",
               "name": "Get Executive Exposures",
               "description": null,
@@ -510,26 +507,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/5dbb15d0-9f91-4b38-8e82-b2afaeee4616",
+          "triggerStep": "/api/3/workflow_steps/c093d94c-d9d9-469f-9e1f-916d8b8a1512",
           "routes": [
             {
-              "uuid": "fa79bc43-349b-40aa-8af7-54fa54a8604d",
+              "uuid": "6bee68c5-6200-4283-ba2e-2cf1b51f654f",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Executive Exposures",
-              "sourceStep": "/api/3/workflow_steps/5dbb15d0-9f91-4b38-8e82-b2afaeee4616",
-              "targetStep": "/api/3/workflow_steps/7dbcc92e-26b2-417e-838a-9577303c47f4"
+              "sourceStep": "/api/3/workflow_steps/c093d94c-d9d9-469f-9e1f-916d8b8a1512",
+              "targetStep": "/api/3/workflow_steps/a8980230-f193-415c-927d-b07c1b8d592c"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "d528b6f6-0e24-41d0-bd9a-e96d4395cb31",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "9f109e6d-dd62-461a-9c9f-050340706e99",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "107f5128-c216-4e08-a93d-62244a3b8d6b",
+              "uuid": "3573a8d7-76ba-497d-bfc7-9fe47cf88c61",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -546,7 +543,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "09cd3f5f-b277-4e92-af6e-eb085d0360d5",
+              "uuid": "85a9302e-5949-4a25-987e-2428d6c079c0",
               "@type": "WorkflowStep",
               "name": "Get Executive Profiles",
               "description": null,
@@ -582,26 +579,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/107f5128-c216-4e08-a93d-62244a3b8d6b",
+          "triggerStep": "/api/3/workflow_steps/3573a8d7-76ba-497d-bfc7-9fe47cf88c61",
           "routes": [
             {
-              "uuid": "51900be6-295f-4709-a8ae-c300b81923bd",
+              "uuid": "793f739f-e09e-4ee6-9ab8-1241606bc5b2",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Executive Profiles",
-              "sourceStep": "/api/3/workflow_steps/107f5128-c216-4e08-a93d-62244a3b8d6b",
-              "targetStep": "/api/3/workflow_steps/09cd3f5f-b277-4e92-af6e-eb085d0360d5"
+              "sourceStep": "/api/3/workflow_steps/3573a8d7-76ba-497d-bfc7-9fe47cf88c61",
+              "targetStep": "/api/3/workflow_steps/85a9302e-5949-4a25-987e-2428d6c079c0"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "b38ef08e-376f-49ca-9ef7-b3404b1dbaf3",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "bbc1db16-5c7a-486f-b62e-e3d054a39717",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "80960219-e862-4666-9385-f2653b9dd984",
+              "uuid": "80f0c5e5-1b66-4418-aa09-1fbc4affb83b",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -618,7 +615,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "bc40a346-fdce-43ae-81d7-c04ba771845b",
+              "uuid": "4f75df25-3140-4d5b-b6b7-cfc174777fe8",
               "@type": "WorkflowStep",
               "name": "Get Open Bucket Exposures",
               "description": null,
@@ -659,26 +656,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/80960219-e862-4666-9385-f2653b9dd984",
+          "triggerStep": "/api/3/workflow_steps/80f0c5e5-1b66-4418-aa09-1fbc4affb83b",
           "routes": [
             {
-              "uuid": "5c290719-fd31-4e0e-8bdc-f3f465aee7c0",
+              "uuid": "9763dbcb-e3cc-4a11-8ffc-24cb99fca3ab",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Open Bucket Exposures",
-              "sourceStep": "/api/3/workflow_steps/80960219-e862-4666-9385-f2653b9dd984",
-              "targetStep": "/api/3/workflow_steps/bc40a346-fdce-43ae-81d7-c04ba771845b"
+              "sourceStep": "/api/3/workflow_steps/80f0c5e5-1b66-4418-aa09-1fbc4affb83b",
+              "targetStep": "/api/3/workflow_steps/4f75df25-3140-4d5b-b6b7-cfc174777fe8"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "593f49e0-3057-48be-9485-c475016783c3",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "3446dc7f-1bb9-44d0-9d7f-5f5055e0a3a4",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "82e0c460-18ea-4acf-a1df-1f4d06563fdd",
+              "uuid": "79a4d06c-987b-49be-bc81-94f2d55f354c",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -695,7 +692,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "3d424ba0-314d-4ec2-a866-f0b04bb1a537",
+              "uuid": "0f637a6b-393b-459b-8448-e1ae87bfe43f",
               "@type": "WorkflowStep",
               "name": "Get Rogue Apps",
               "description": null,
@@ -735,26 +732,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/82e0c460-18ea-4acf-a1df-1f4d06563fdd",
+          "triggerStep": "/api/3/workflow_steps/79a4d06c-987b-49be-bc81-94f2d55f354c",
           "routes": [
             {
-              "uuid": "04ccdda7-b3fc-43db-8bb2-f3bac296eb15",
+              "uuid": "e6bf9d7d-0649-472b-ae9f-15ecba38aa28",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Rogue Apps",
-              "sourceStep": "/api/3/workflow_steps/82e0c460-18ea-4acf-a1df-1f4d06563fdd",
-              "targetStep": "/api/3/workflow_steps/3d424ba0-314d-4ec2-a866-f0b04bb1a537"
+              "sourceStep": "/api/3/workflow_steps/79a4d06c-987b-49be-bc81-94f2d55f354c",
+              "targetStep": "/api/3/workflow_steps/0f637a6b-393b-459b-8448-e1ae87bfe43f"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "4e4f89c2-5ceb-4a58-b257-db793cf8825c",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "5e5b48dc-95b7-40e8-8461-b07639f42aaa",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "0852a50a-8292-4c11-8888-9522335e2fa9",
+              "uuid": "79fd4848-1dd5-48e9-86b1-c722b5075a05",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -771,7 +768,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "2a483dd5-1b46-434f-af8e-5c65a776d1ca",
+              "uuid": "1c0fefe7-30cd-4660-87b9-f93abb5c1848",
               "@type": "WorkflowStep",
               "name": "Get Rogue App By ID",
               "description": null,
@@ -805,26 +802,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/0852a50a-8292-4c11-8888-9522335e2fa9",
+          "triggerStep": "/api/3/workflow_steps/79fd4848-1dd5-48e9-86b1-c722b5075a05",
           "routes": [
             {
-              "uuid": "72236f9a-0767-4acd-a9e4-eecd04879af8",
+              "uuid": "d73778c5-c06f-40f5-a10a-b5fdaa9691df",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Rogue App By ID",
-              "sourceStep": "/api/3/workflow_steps/0852a50a-8292-4c11-8888-9522335e2fa9",
-              "targetStep": "/api/3/workflow_steps/2a483dd5-1b46-434f-af8e-5c65a776d1ca"
+              "sourceStep": "/api/3/workflow_steps/79fd4848-1dd5-48e9-86b1-c722b5075a05",
+              "targetStep": "/api/3/workflow_steps/1c0fefe7-30cd-4660-87b9-f93abb5c1848"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "5b9700c6-81c4-4e90-9b4b-336e2c855a76",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "3018c17f-b1b0-4e18-b70f-fde6c7d1c92f",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "5953c6f3-eac8-4e91-a6d1-e83bd4cd92cf",
+              "uuid": "534597f6-62e2-4065-b272-51f729c40613",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -841,7 +838,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "22acf072-c1c8-42d5-abb5-1a9e74718c59",
+              "uuid": "362b839a-e0f7-4e08-a448-7e164b6ea9a5",
               "@type": "WorkflowStep",
               "name": "Get Social Media Threats",
               "description": null,
@@ -884,26 +881,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/5953c6f3-eac8-4e91-a6d1-e83bd4cd92cf",
+          "triggerStep": "/api/3/workflow_steps/534597f6-62e2-4065-b272-51f729c40613",
           "routes": [
             {
-              "uuid": "dd3897cf-9378-4b81-bcdf-915da112e5fc",
+              "uuid": "35a90804-75aa-4eeb-991d-265b0b8f6ac4",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Social Media Threats",
-              "sourceStep": "/api/3/workflow_steps/5953c6f3-eac8-4e91-a6d1-e83bd4cd92cf",
-              "targetStep": "/api/3/workflow_steps/22acf072-c1c8-42d5-abb5-1a9e74718c59"
+              "sourceStep": "/api/3/workflow_steps/534597f6-62e2-4065-b272-51f729c40613",
+              "targetStep": "/api/3/workflow_steps/362b839a-e0f7-4e08-a448-7e164b6ea9a5"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "58ffdd7c-d901-4609-9073-89f1608fb139",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "c6f51a99-6281-49c9-b95a-a73e3317f4db",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "f73802c9-df4a-4136-a797-122ff29ffda2",
+              "uuid": "5c8c30ff-1dee-42f6-8bba-01972df3cad1",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -920,7 +917,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "22c51473-a7e6-4ffe-98cd-0e0cf84d359b",
+              "uuid": "6c1b3c04-bb68-4238-8b7d-6978f1d7dc7d",
               "@type": "WorkflowStep",
               "name": "Get Domain Threats Statistics",
               "description": null,
@@ -952,26 +949,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/f73802c9-df4a-4136-a797-122ff29ffda2",
+          "triggerStep": "/api/3/workflow_steps/5c8c30ff-1dee-42f6-8bba-01972df3cad1",
           "routes": [
             {
-              "uuid": "13f92989-e5e4-4c1e-8b9d-aa338650c8ac",
+              "uuid": "e44b4f61-ac52-43fb-9035-21e8c2794b66",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Domain Threats Statistics",
-              "sourceStep": "/api/3/workflow_steps/f73802c9-df4a-4136-a797-122ff29ffda2",
-              "targetStep": "/api/3/workflow_steps/22c51473-a7e6-4ffe-98cd-0e0cf84d359b"
+              "sourceStep": "/api/3/workflow_steps/5c8c30ff-1dee-42f6-8bba-01972df3cad1",
+              "targetStep": "/api/3/workflow_steps/6c1b3c04-bb68-4238-8b7d-6978f1d7dc7d"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "fbfac874-7f05-465d-b288-97a1ee21d0d7",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "54439d47-5530-47c4-8546-273dfc1cd6d8",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "de849c2d-d122-44ae-b18a-3f91a0478322",
+              "uuid": "a9ae082c-bdf5-4291-ada7-c0a6ac578db8",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -988,7 +985,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "38fb163a-5204-4f2c-ac7f-fd996e25f13f",
+              "uuid": "746d7ef5-a1d5-48dd-96b5-e75064d240c7",
               "@type": "WorkflowStep",
               "name": "Get Original Domains Statistics",
               "description": null,
@@ -996,10 +993,7 @@
               "arguments": {
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
-                "params": {
-                  "page": "",
-                  "size": ""
-                },
+                "params": [],
                 "version": "2.1.0",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_original_domains_stats",
@@ -1023,26 +1017,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/de849c2d-d122-44ae-b18a-3f91a0478322",
+          "triggerStep": "/api/3/workflow_steps/a9ae082c-bdf5-4291-ada7-c0a6ac578db8",
           "routes": [
             {
-              "uuid": "09008fe0-a1d5-498c-9081-871ce96cdeb9",
+              "uuid": "0d913bb7-62c0-4d2b-967d-9a748b799e9d",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Original Domains Statistics",
-              "sourceStep": "/api/3/workflow_steps/de849c2d-d122-44ae-b18a-3f91a0478322",
-              "targetStep": "/api/3/workflow_steps/38fb163a-5204-4f2c-ac7f-fd996e25f13f"
+              "sourceStep": "/api/3/workflow_steps/a9ae082c-bdf5-4291-ada7-c0a6ac578db8",
+              "targetStep": "/api/3/workflow_steps/746d7ef5-a1d5-48dd-96b5-e75064d240c7"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "10b6c15e-cd40-4e8d-97c8-17182049fd40",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "95f079c3-5efb-4c2b-baca-8bea5eacde22",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "7d64ef7a-bec3-4925-aa87-6d4ab9c9c2ac",
+              "uuid": "290e9de3-897c-4589-8426-3ca994c50a39",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -1059,7 +1053,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "f3d0678e-7e6a-4a1b-a2ff-5afedb2628c0",
+              "uuid": "28e954b8-c3a6-40f0-b9da-b55a3ad984b0",
               "@type": "WorkflowStep",
               "name": "Get Open Bucket Exposures Statistics",
               "description": null,
@@ -1091,26 +1085,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/7d64ef7a-bec3-4925-aa87-6d4ab9c9c2ac",
+          "triggerStep": "/api/3/workflow_steps/290e9de3-897c-4589-8426-3ca994c50a39",
           "routes": [
             {
-              "uuid": "da629ac2-b0bc-4b6d-9870-3405a0021409",
+              "uuid": "fc4eaf45-8e5d-4810-917f-7608b65d1d40",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Open Bucket Exposures Statistics",
-              "sourceStep": "/api/3/workflow_steps/7d64ef7a-bec3-4925-aa87-6d4ab9c9c2ac",
-              "targetStep": "/api/3/workflow_steps/f3d0678e-7e6a-4a1b-a2ff-5afedb2628c0"
+              "sourceStep": "/api/3/workflow_steps/290e9de3-897c-4589-8426-3ca994c50a39",
+              "targetStep": "/api/3/workflow_steps/28e954b8-c3a6-40f0-b9da-b55a3ad984b0"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "702a68da-c154-47bd-a9b7-d1430101ddd1",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "9e527e1d-078c-4eb3-ab58-3a5273b7210b",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "ae8acdc3-03d1-4bb4-a253-b9a97cd68d26",
+              "uuid": "1fdbb70f-673d-424b-97f2-cec35a64ed97",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -1127,7 +1121,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "b03b1000-d065-4522-8a80-ec887c471e94",
+              "uuid": "3cceea5d-8803-4930-9e82-10351e08fd5c",
               "@type": "WorkflowStep",
               "name": "Get Social Media Threats Statistics",
               "description": null,
@@ -1159,26 +1153,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/ae8acdc3-03d1-4bb4-a253-b9a97cd68d26",
+          "triggerStep": "/api/3/workflow_steps/1fdbb70f-673d-424b-97f2-cec35a64ed97",
           "routes": [
             {
-              "uuid": "c5b45734-3f2c-4b4a-8901-c9c84b89f2e9",
+              "uuid": "16d7d4cc-a3c0-4e5b-83c7-ce6b1cda04ae",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Social Media Threats Statistics",
-              "sourceStep": "/api/3/workflow_steps/ae8acdc3-03d1-4bb4-a253-b9a97cd68d26",
-              "targetStep": "/api/3/workflow_steps/b03b1000-d065-4522-8a80-ec887c471e94"
+              "sourceStep": "/api/3/workflow_steps/1fdbb70f-673d-424b-97f2-cec35a64ed97",
+              "targetStep": "/api/3/workflow_steps/3cceea5d-8803-4930-9e82-10351e08fd5c"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "a5189f6e-ac12-4b2d-af1a-1121152f37ee",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "8880b897-5359-4e40-8fdb-d0f725b5f89b",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "66452b84-9e4a-402d-9c29-36783f358c1f",
+              "uuid": "dff40a61-7884-4785-bbc5-72d5ec5e610c",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -1195,7 +1189,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "6f8a72f6-8541-4a32-be5d-3a654f6910b2",
+              "uuid": "f2c8fe30-221c-4e88-a9a4-49cb34295d70",
               "@type": "WorkflowStep",
               "name": "Get Tags",
               "description": null,
@@ -1227,26 +1221,26 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/66452b84-9e4a-402d-9c29-36783f358c1f",
+          "triggerStep": "/api/3/workflow_steps/dff40a61-7884-4785-bbc5-72d5ec5e610c",
           "routes": [
             {
-              "uuid": "5def4eaf-1e87-4581-967c-7b56f6da7603",
+              "uuid": "467146fa-b4fa-4f20-bbe1-3d170dea6f6c",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Tags",
-              "sourceStep": "/api/3/workflow_steps/66452b84-9e4a-402d-9c29-36783f358c1f",
-              "targetStep": "/api/3/workflow_steps/6f8a72f6-8541-4a32-be5d-3a654f6910b2"
+              "sourceStep": "/api/3/workflow_steps/dff40a61-7884-4785-bbc5-72d5ec5e610c",
+              "targetStep": "/api/3/workflow_steps/f2c8fe30-221c-4e88-a9a4-49cb34295d70"
             }
           ]
         },
         {
           "@type": "Workflow",
-          "uuid": "22519d3d-8607-4752-97f1-63b4d9af199e",
-          "collection": "/api/3/workflow_collections/053cc37f-fec5-4223-9ecb-5fab3a5d511a",
+          "uuid": "71fc19fb-c7dd-4ecc-92fd-0a2e3740b66e",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
           "steps": [
             {
-              "uuid": "eeecd815-ff10-4e6c-be1a-57c828502455",
+              "uuid": "027b3900-dced-4f32-a244-763724d38bee",
               "@type": "WorkflowStep",
               "name": "Start",
               "description": null,
@@ -1263,7 +1257,7 @@
               "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
             },
             {
-              "uuid": "a104d63a-9ab8-4a03-90bb-7440c229e0eb",
+              "uuid": "cb9ca2dc-0abf-4b76-b86b-86ca84e77210",
               "@type": "WorkflowStep",
               "name": "Get Takedown Requests",
               "description": null,
@@ -1303,16 +1297,371 @@
           "singleRecordExecution": false,
           "parameters": [],
           "synchronous": false,
-          "triggerStep": "/api/3/workflow_steps/eeecd815-ff10-4e6c-be1a-57c828502455",
+          "triggerStep": "/api/3/workflow_steps/027b3900-dced-4f32-a244-763724d38bee",
           "routes": [
             {
-              "uuid": "3165cd63-2c0a-4c51-8f48-dfbd092b333d",
+              "uuid": "7336656b-3ee5-48d4-98e2-878ce7f605fa",
               "@type": "WorkflowRoute",
               "label": null,
               "isExecuted": false,
               "name": "Start-> Get Takedown Requests",
-              "sourceStep": "/api/3/workflow_steps/eeecd815-ff10-4e6c-be1a-57c828502455",
-              "targetStep": "/api/3/workflow_steps/a104d63a-9ab8-4a03-90bb-7440c229e0eb"
+              "sourceStep": "/api/3/workflow_steps/027b3900-dced-4f32-a244-763724d38bee",
+              "targetStep": "/api/3/workflow_steps/cb9ca2dc-0abf-4b76-b86b-86ca84e77210"
+            }
+          ]
+        },
+        {
+          "@type": "Workflow",
+          "uuid": "1ac717dd-7e4d-4cd3-aa9f-8a579ec48e7d",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
+          "steps": [
+            {
+              "uuid": "d21a1e73-9ebf-4da1-8729-e71ea05af89e",
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "step_variables": {
+                  "input": {
+                    "params": []
+                  }
+                }
+              },
+              "left": "20",
+              "top": "20",
+              "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
+            },
+            {
+              "uuid": "bc8b6f39-5daa-4699-baea-53cef42bae0c",
+              "@type": "WorkflowStep",
+              "name": "Update Code Repo Status",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "name": "Fortinet FortiRecon Brand Protection",
+                "config": "''",
+                "params": {
+                  "repo_id": "",
+                  "status": ""
+                },
+                "version": "2.1.0",
+                "connector": "fortinet-fortirecon-brand-protection",
+                "operation": "update_code_repo_status",
+                "operationTitle": "Update Code Repo Status"
+              },
+              "left": "188",
+              "top": "120",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671"
+            }
+          ],
+          "triggerLimit": null,
+          "description": "Updates the status of the Code Repo record.",
+          "name": "Update Code Repo Status",
+          "tag": "#Fortinet FortiRecon Brand Protection",
+          "recordTags": [
+            "Fortinet",
+            "fortinet-fortirecon-brand-protection"
+          ],
+          "isActive": false,
+          "debug": false,
+          "singleRecordExecution": false,
+          "parameters": [],
+          "synchronous": false,
+          "triggerStep": "/api/3/workflow_steps/d21a1e73-9ebf-4da1-8729-e71ea05af89e",
+          "routes": [
+            {
+              "uuid": "219955b4-543d-43c0-8906-7cb84844f031",
+              "@type": "WorkflowRoute",
+              "label": null,
+              "isExecuted": false,
+              "name": "Start-> Update Code Repo Status",
+              "sourceStep": "/api/3/workflow_steps/d21a1e73-9ebf-4da1-8729-e71ea05af89e",
+              "targetStep": "/api/3/workflow_steps/bc8b6f39-5daa-4699-baea-53cef42bae0c"
+            }
+          ]
+        },
+        {
+          "@type": "Workflow",
+          "uuid": "9ee343b1-0c32-4f8d-a0ed-0b445384d6ef",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
+          "steps": [
+            {
+              "uuid": "bd3183d3-4432-4240-8e95-6409204e6201",
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "step_variables": {
+                  "input": {
+                    "params": []
+                  }
+                }
+              },
+              "left": "20",
+              "top": "20",
+              "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
+            },
+            {
+              "uuid": "df4d72bc-a428-425f-9e22-291b115a8459",
+              "@type": "WorkflowStep",
+              "name": "Update Domain Threat Status",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "name": "Fortinet FortiRecon Brand Protection",
+                "config": "''",
+                "params": {
+                  "domain_threat_id": "",
+                  "status": ""
+                },
+                "version": "2.1.0",
+                "connector": "fortinet-fortirecon-brand-protection",
+                "operation": "update_domain_threat_status",
+                "operationTitle": "Update Domain Threat Status"
+              },
+              "left": "188",
+              "top": "120",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671"
+            }
+          ],
+          "triggerLimit": null,
+          "description": "Updates the status of the Domain Threat record.",
+          "name": "Update Domain Threat Status",
+          "tag": "#Fortinet FortiRecon Brand Protection",
+          "recordTags": [
+            "Fortinet",
+            "fortinet-fortirecon-brand-protection"
+          ],
+          "isActive": false,
+          "debug": false,
+          "singleRecordExecution": false,
+          "parameters": [],
+          "synchronous": false,
+          "triggerStep": "/api/3/workflow_steps/bd3183d3-4432-4240-8e95-6409204e6201",
+          "routes": [
+            {
+              "uuid": "304de0ab-023f-4b92-a0d0-7227d2c3064c",
+              "@type": "WorkflowRoute",
+              "label": null,
+              "isExecuted": false,
+              "name": "Start-> Update Domain Threat Status",
+              "sourceStep": "/api/3/workflow_steps/bd3183d3-4432-4240-8e95-6409204e6201",
+              "targetStep": "/api/3/workflow_steps/df4d72bc-a428-425f-9e22-291b115a8459"
+            }
+          ]
+        },
+        {
+          "@type": "Workflow",
+          "uuid": "fde0b435-5a78-44a9-9d3f-b3b9637c7aa6",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
+          "steps": [
+            {
+              "uuid": "64397bee-7e48-43db-bb80-54f8985bb9ff",
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "step_variables": {
+                  "input": {
+                    "params": []
+                  }
+                }
+              },
+              "left": "20",
+              "top": "20",
+              "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
+            },
+            {
+              "uuid": "48290ae2-afda-41f7-a39e-6a3a7a099edc",
+              "@type": "WorkflowStep",
+              "name": "Update Open Bucket Exposure Status",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "name": "Fortinet FortiRecon Brand Protection",
+                "config": "''",
+                "params": {
+                  "open_bucket_exposure_id": "",
+                  "status": ""
+                },
+                "version": "2.1.0",
+                "connector": "fortinet-fortirecon-brand-protection",
+                "operation": "update_open_bucket_exposure_status",
+                "operationTitle": "Update Open Bucket Exposure Status"
+              },
+              "left": "188",
+              "top": "120",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671"
+            }
+          ],
+          "triggerLimit": null,
+          "description": "Updates the status of the Open Bucket Exposure record.",
+          "name": "Update Open Bucket Exposure Status",
+          "tag": "#Fortinet FortiRecon Brand Protection",
+          "recordTags": [
+            "Fortinet",
+            "fortinet-fortirecon-brand-protection"
+          ],
+          "isActive": false,
+          "debug": false,
+          "singleRecordExecution": false,
+          "parameters": [],
+          "synchronous": false,
+          "triggerStep": "/api/3/workflow_steps/64397bee-7e48-43db-bb80-54f8985bb9ff",
+          "routes": [
+            {
+              "uuid": "1a75fda9-ba86-44e0-ae9b-8b7c7ec2ef78",
+              "@type": "WorkflowRoute",
+              "label": null,
+              "isExecuted": false,
+              "name": "Start-> Update Open Bucket Exposure Status",
+              "sourceStep": "/api/3/workflow_steps/64397bee-7e48-43db-bb80-54f8985bb9ff",
+              "targetStep": "/api/3/workflow_steps/48290ae2-afda-41f7-a39e-6a3a7a099edc"
+            }
+          ]
+        },
+        {
+          "@type": "Workflow",
+          "uuid": "86dc7b33-8597-4dac-b275-a20db90dcfab",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
+          "steps": [
+            {
+              "uuid": "805a77dd-ae96-455b-9e7a-0e023dc5b93a",
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "step_variables": {
+                  "input": {
+                    "params": []
+                  }
+                }
+              },
+              "left": "20",
+              "top": "20",
+              "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
+            },
+            {
+              "uuid": "78098659-e1f4-4aad-a720-683e702ae315",
+              "@type": "WorkflowStep",
+              "name": "Update Rogue App Status",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "name": "Fortinet FortiRecon Brand Protection",
+                "config": "''",
+                "params": {
+                  "rogue_app_exposure_id": "",
+                  "status": ""
+                },
+                "version": "2.1.0",
+                "connector": "fortinet-fortirecon-brand-protection",
+                "operation": "update_rogue_app_exposure_status",
+                "operationTitle": "Update Rogue App Status"
+              },
+              "left": "188",
+              "top": "120",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671"
+            }
+          ],
+          "triggerLimit": null,
+          "description": "Updates the status of the Rogue App record.",
+          "name": "Update Rogue App Status",
+          "tag": "#Fortinet FortiRecon Brand Protection",
+          "recordTags": [
+            "Fortinet",
+            "fortinet-fortirecon-brand-protection"
+          ],
+          "isActive": false,
+          "debug": false,
+          "singleRecordExecution": false,
+          "parameters": [],
+          "synchronous": false,
+          "triggerStep": "/api/3/workflow_steps/805a77dd-ae96-455b-9e7a-0e023dc5b93a",
+          "routes": [
+            {
+              "uuid": "4769c486-55e4-4e4f-a826-1b32e11cf907",
+              "@type": "WorkflowRoute",
+              "label": null,
+              "isExecuted": false,
+              "name": "Start-> Update Rogue App Status",
+              "sourceStep": "/api/3/workflow_steps/805a77dd-ae96-455b-9e7a-0e023dc5b93a",
+              "targetStep": "/api/3/workflow_steps/78098659-e1f4-4aad-a720-683e702ae315"
+            }
+          ]
+        },
+        {
+          "@type": "Workflow",
+          "uuid": "42febda4-4199-471c-b9f0-fa8d4c6b57fe",
+          "collection": "/api/3/workflow_collections/5a7a0bcf-103c-43a5-9325-e40c80a379cd",
+          "steps": [
+            {
+              "uuid": "458f3081-e962-4b23-bca5-20d28e7f501b",
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "step_variables": {
+                  "input": {
+                    "params": []
+                  }
+                }
+              },
+              "left": "20",
+              "top": "20",
+              "stepType": "/api/3/workflow_step_types/b348f017-9a94-471f-87f8-ce88b6a7ad62"
+            },
+            {
+              "uuid": "21104130-3bfd-40ff-b18b-0f121e1d93ec",
+              "@type": "WorkflowStep",
+              "name": "Update Social Media Threat Status",
+              "description": null,
+              "status": null,
+              "arguments": {
+                "name": "Fortinet FortiRecon Brand Protection",
+                "config": "''",
+                "params": {
+                  "social_media_threat_id": "",
+                  "status": ""
+                },
+                "version": "2.1.0",
+                "connector": "fortinet-fortirecon-brand-protection",
+                "operation": "update_social_media_threat_status",
+                "operationTitle": "Update Social Media Threat Status"
+              },
+              "left": "188",
+              "top": "120",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671"
+            }
+          ],
+          "triggerLimit": null,
+          "description": "Updates the status of the Social Media Threat record.",
+          "name": "Update Social Media Threat Status",
+          "tag": "#Fortinet FortiRecon Brand Protection",
+          "recordTags": [
+            "Fortinet",
+            "fortinet-fortirecon-brand-protection"
+          ],
+          "isActive": false,
+          "debug": false,
+          "singleRecordExecution": false,
+          "parameters": [],
+          "synchronous": false,
+          "triggerStep": "/api/3/workflow_steps/458f3081-e962-4b23-bca5-20d28e7f501b",
+          "routes": [
+            {
+              "uuid": "f9a26349-9123-423d-ae0b-b222402d3f52",
+              "@type": "WorkflowRoute",
+              "label": null,
+              "isExecuted": false,
+              "name": "Start-> Update Social Media Threat Status",
+              "sourceStep": "/api/3/workflow_steps/458f3081-e962-4b23-bca5-20d28e7f501b",
+              "targetStep": "/api/3/workflow_steps/21104130-3bfd-40ff-b18b-0f121e1d93ec"
             }
           ]
         }
