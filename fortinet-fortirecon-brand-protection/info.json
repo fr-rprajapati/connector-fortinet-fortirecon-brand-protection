@@ -10,7 +10,7 @@
   "category": "Attack Surface Management",
   "icon_small_name": "small_icon.png",
   "icon_large_name": "large_icon.png",
-  "help_online": "",
+  "help_online": "https://docs.fortinet.com/document/fortisoar/2.1.0/fortinet-fortirecon-brand-protection/1018/fortinet-fortirecon-brand-protection-v2-1-0",
   "configuration": {
     "fields": [
       {
@@ -71,8 +71,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify a keyword to search in code repo exposures and retrieve results containing the specified keyword.",
-          "description": "(Optional) Specify a keyword to search in code repo exposures and retrieve results containing the specified keyword."
+          "tooltip": "Specify a keyword to search in code repositories and retrieve results containing the specified keyword.",
+          "description": "(Optional) Specify a keyword to search in code repositories and retrieve results containing the specified keyword."
         },
         {
           "name": "matched_domain",
@@ -81,8 +81,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify a domain to search in code repo exposures and retrieve results containing the specified domain name. You can specify multiple comma-separated domains to retrieve code repo exposures containing the specified domains. For example: domain1.com,domain2.com.",
-          "description": "(Optional) Specify a domain to search in code repo exposures and retrieve results containing the specified domain name. You can specify multiple comma-separated domains to retrieve code repo exposures containing the specified domains. For example: domain1.com,domain2.com.",
+          "tooltip": "Specify a domain to search in code repositories and retrieve results containing the specified domain name. You can specify multiple comma-separated domains to retrieve code repo exposures containing the specified domains. For example: domain1.com,domain2.com.",
+          "description": "(Optional) Specify a domain to search in code repositories and retrieve results containing the specified domain name. You can specify multiple comma-separated domains to retrieve code repo exposures containing the specified domains. For example: domain1.com,domain2.com.",
           "placeholder": "eg: domain1.com,domain2.com"
         },
         {
@@ -92,8 +92,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify a risk level to search in code repo exposures and retrieve results containing the specified risk level. You can specify multiple comma-separated risk levels to retrieve code repo exposures containing the specified risk levels. For example, LOW,MEDIUM,HIGH.",
-          "description": "(Optional) Specify a risk level to search in code repo exposures and retrieve results containing the specified risk level. You can specify multiple comma-separated risk levels to retrieve code repo exposures containing the specified risk levels. For example, LOW,MEDIUM,HIGH.",
+          "tooltip": "Specify a risk level to search in code repositories and retrieve results containing the specified risk level. You can specify multiple comma-separated risk levels to retrieve code repositories containing the specified risk levels. For example: LOW,MEDIUM,HIGH.",
+          "description": "(Optional) Specify a risk level to search in code repositories and retrieve results containing the specified risk level. You can specify multiple comma-separated risk levels to retrieve code repositories containing the specified risk levels. For example: LOW,MEDIUM,HIGH.",
           "placeholder": "eg: LOW,MEDIUM,HIGH"
         },
         {
@@ -103,8 +103,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify an attribute type to search in code repo exposures and retrieve results containing the specified attribute type. You can specify multiple comma-separated attribute types to retrieve code repo exposures containing the specified attribute types. For example, Email,Password.",
-          "description": "(Optional) Specify an attribute type to search in code repo exposures and retrieve results containing the specified attribute type. You can specify multiple comma-separated attribute types to retrieve code repo exposures containing the specified attribute types. For example, Email,Password.",
+          "tooltip": "Specify an attribute type to search in code repositories and retrieve results containing the specified attribute type. You can specify multiple comma-separated attribute types to retrieve code repositories containing the specified attribute types. For example: Email,Password.",
+          "description": "(Optional) Specify an attribute type to search in code repositories and retrieve results containing the specified attribute type. You can specify multiple comma-separated attribute types to retrieve code repositories containing the specified attribute types. For example: Email,Password.",
           "placeholder": "eg: Email,Password"
         },
         {
@@ -114,8 +114,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Select a status to search in code repo exposures and retrieve results containing the specified status. You can select from following options: Active Ignored Resolved",
-          "description": "(Optional) Select a status to search in code repo exposures and retrieve results containing the specified status. You can select from following options: Active Ignored Resolved",
+          "tooltip": "Select a status to search in code repositories and retrieve results containing the specified status. You can select from the following options: Active Ignored Resolved",
+          "description": "(Optional) Select a status to search in code repositories and retrieve results containing the specified status. You can select from the following options: Active Ignored Resolved",
           "options": [
             "Active",
             "Ignored",
@@ -187,7 +187,7 @@
       "operation": "get_code_repos",
       "title": "Get Code Repositories",
       "annotation": "get_code_repos",
-      "description": "Retrieves a list of code repository based on the filter criteria that you have specified.",
+      "description": "Retrieves a list of code repositories based on the searched keyword, domain, risk level, and other filter criteria that you have specified.",
       "category": "investigation",
       "visible": true,
       "enabled": true,
@@ -209,7 +209,7 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify a domain to search in code repositories and retrieve results containing the specified domain name. You can specify multiple comma-separated domains to retrieve code repositories containing the specified domains. For example: domain1.com,domain2.com.",
+          "tooltip": "Specify a domain to search in code repositories and retrieve results containing the specified domain name. You can specify multiple comma-separated domains to retrieve code repo exposures containing the specified domains. For example: domain1.com,domain2.com.",
           "description": "(Optional) Specify a domain to search in code repositories and retrieve results containing the specified domain name. You can specify multiple comma-separated domains to retrieve code repo exposures containing the specified domains. For example: domain1.com,domain2.com.",
           "placeholder": "eg: domain1.com,domain2.com"
         },
@@ -220,8 +220,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify a risk level to search in code repositories and retrieve results containing the specified risk level. You can specify multiple comma-separated risk levels to retrieve code repositories containing the specified risk levels. For example, LOW,MEDIUM,HIGH.",
-          "description": "(Optional) Specify a risk level to search in code repositories and retrieve results containing the specified risk level. You can specify multiple comma-separated risk levels to retrieve code repositories containing the specified risk levels. For example, LOW,MEDIUM,HIGH.",
+          "tooltip": "Specify a risk level to search in code repositories and retrieve results containing the specified risk level. You can specify multiple comma-separated risk levels to retrieve code repositories containing the specified risk levels. For example: LOW,MEDIUM,HIGH.",
+          "description": "(Optional) Specify a risk level to search in code repositories and retrieve results containing the specified risk level. You can specify multiple comma-separated risk levels to retrieve code repositories containing the specified risk levels. For example: LOW,MEDIUM,HIGH.",
           "placeholder": "eg: LOW,MEDIUM,HIGH"
         },
         {
@@ -231,8 +231,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify an attribute type to search in code repositories and retrieve results containing the specified attribute type. You can specify multiple comma-separated attribute types to retrieve code repositories containing the specified attribute types. For example, Email,Password.",
-          "description": "(Optional) Specify an attribute type to search in code repositories and retrieve results containing the specified attribute type. You can specify multiple comma-separated attribute types to retrieve code repositories containing the specified attribute types. For example, Email,Password.",
+          "tooltip": "Specify an attribute type to search in code repositories and retrieve results containing the specified attribute type. You can specify multiple comma-separated attribute types to retrieve code repositories containing the specified attribute types. For example: Email,Password.",
+          "description": "(Optional) Specify an attribute type to search in code repositories and retrieve results containing the specified attribute type. You can specify multiple comma-separated attribute types to retrieve code repositories containing the specified attribute types. For example: Email,Password.",
           "placeholder": "eg: Email,Password"
         },
         {
@@ -242,8 +242,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Select a status to search in code repositories and retrieve results containing the specified status. You can select from following options: Active Ignored Resolved",
-          "description": "(Optional) Select a status to search in code repositories and retrieve results containing the specified status. You can select from following options: Active Ignored Resolved",
+          "tooltip": "Select a status to search in code repositories and retrieve results containing the specified status. You can select from the following options: Active Ignored Resolved",
+          "description": "(Optional) Select a status to search in code repositories and retrieve results containing the specified status. You can select from the following options: Active Ignored Resolved",
           "options": [
             "Active",
             "Ignored",
@@ -314,7 +314,7 @@
       "operation": "get_code_repos_stats",
       "title": "Get Code Repos Statistics",
       "annotation": "get_code_repos_stats",
-      "description": "Retrieves statistics for code repos.",
+      "description": "Retrieves statistics for all code repositories associated with the Organization ID specified in configuration parameters.",
       "category": "investigation",
       "visible": true,
       "enabled": true,
@@ -369,12 +369,11 @@
       "operation": "get_code_repo_matched_domains_stats",
       "title": "Get Code Repo Matched Domains Statistics",
       "annotation": "get_code_repo_matched_domains_stats",
-      "description": "Retrieves statistics of matched domains for the Code Repo exposures based on the page number and the page size specified.",
+      "description": "Retrieves statistics of all matched domains associated with the Organization ID specified in configuration parameters.",
       "category": "investigation",
       "visible": true,
       "enabled": true,
-      "parameters": [
-      ],
+      "parameters": [],
       "output_schema": {
         "count_by_matched_domain": {
           "aggregations": [
@@ -451,8 +450,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Select a status to search in domain threats and retrieve results containing the specified status. You can select from following options: Active Ignored Resolved",
-          "description": "(Optional) Select a status to search in domain threats and retrieve results containing the specified status. You can select from following options: Active Ignored Resolved",
+          "tooltip": "Select a status to search in domain threats and retrieve results containing the specified status. You can select from the following options: Active Ignored Resolved",
+          "description": "(Optional) Select a status to search in domain threats and retrieve results containing the specified status. You can select from the following options: Active Ignored Resolved",
           "options": [
             "Active",
             "Ignored",
@@ -761,8 +760,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Select a status to search in open bucket exposures and retrieve results containing the specified status. You can select from following options: Active Ignored Resolved",
-          "description": "(Optional) Select a status to search in open bucket exposures and retrieve results containing the specified status. You can select from following options: Active Ignored Resolved",
+          "tooltip": "Select a status to search in open bucket exposures and retrieve results containing the specified status. You can select from the following options: Active Ignored Resolved",
+          "description": "(Optional) Select a status to search in open bucket exposures and retrieve results containing the specified status. You can select from the following options: Active Ignored Resolved",
           "options": [
             "Active",
             "Ignored",
@@ -849,8 +848,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "description": "(Optional) Select the rogue apps status type from the following options to filter the results: Unofficial: These are the apps that are not necessarily rouge but mention your organization's brand, OFFICIAL: These are the apps that are officially published by your organization, ROGUE: These are the apps that are deemed to be impersonating your organization, TAKEDOWN: These are the rouge apps that are currently undergoing takedown by FortiRecon, ALSE_POSITIVE: These are the apps that were classified as either rouge or unofficial but are now deemed to be false positives by your organization's analysts, RESOLVED: These are the rouge apps that have been taken down.",
-          "tooltip": "Select the rogue apps status type from the following options to filter the results.",
+          "description": "(Optional) Select the rogue apps status type from the following options to filter the results: Unofficial: These are the apps that are not necessarily rouge but mention your organization's brand Official: These are the apps that are officially published by your organization Rogue: These are the apps that are deemed to be impersonating your organization Takedown: These are the rouge apps that are currently undergoing takedown by FortiRecon False Positive: These are the apps that were classified as either rouge or unofficial but are now deemed to be false positives by your organization's analysts Resolved: These are the rouge apps that have been taken down.",
+          "tooltip": "Select the rogue apps status type from the following options to filter the results: Unofficial: These are the apps that are not necessarily rouge but mention your organization's brand Official: These are the apps that are officially published by your organization Rogue: These are the apps that are deemed to be impersonating your organization Takedown: These are the rouge apps that are currently undergoing takedown by FortiRecon False Positive: These are the apps that were classified as either rouge or unofficial but are now deemed to be false positives by your organization's analysts Resolved: These are the rouge apps that have been taken down.",
           "options": [
             "UNOFFICIAL",
             "OFFICIAL",
@@ -867,8 +866,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify a keyword to search in rogue apps and retrieve results containing the specified keyword.",
-          "description": "(Optional) Specify a keyword to search in rogue apps and retrieve results containing the specified keyword."
+          "tooltip": "Specify the keywords to filter the results. Specified keyword is searched in these fields: Keyword, Source Name, Developer Name, App Name.",
+          "description": "(Optional) Specify the keywords to filter the results. Specified keyword is searched in these fields: Keyword, Source Name, Developer Name, App Name."
         },
         {
           "name": "appstore",
@@ -877,8 +876,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify a app store to search in rogue apps and retrieve results containing the specified app stores. You can specify multiple comma-separated app stores to retrieve rogue apps containing the specified app stores. For example Androidapk,Applestore.",
-          "description": "(Optional) Specify a app store to search in rogue apps and retrieve results containing the specified app stores. You can specify multiple comma-separated file types to retrieve rogue apps containing the specified file types. For example Androidapk,Applestore.",
+          "tooltip": "Specify an app store in which to search for rogue apps and retrieve results. You can specify multiple comma-separated file types to retrieve rogue apps containing the specified file types. For example: Androidapk,Applestore.",
+          "description": "(Optional) Specify an app store in which to search for rogue apps and retrieve results. You can specify multiple comma-separated file types to retrieve rogue apps containing the specified file types. For example: Androidapk,Applestore.",
           "placeholder": "eg: gz,docx"
         },
         {
@@ -888,8 +887,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Select the start date of the range containing the date when a rogue app was first seen. Selecting a start date is mandatory if an End Date is selected.",
-          "description": "(Optional) Select the start date of the range containing the date when a rogue app was first seen. Selecting a start date is mandatory if an End Date is selected."
+          "tooltip": "Select the start date of the range containing the date when the rogue app was first seen. Selecting a start date is mandatory if an End Date is selected.",
+          "description": "(Optional) Select the start date of the range containing the date when the rogue app was first seen. Selecting a start date is mandatory if an End Date is selected."
         },
         {
           "name": "end_date",
@@ -908,8 +907,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify the page number from which to retrieve the results. Default page is 1.",
-          "description": "(Optional) Specify the page number from which to retrieve the results. Default page is 1."
+          "tooltip": "Specify the page number from which to retrieve the results. Default value is 1.",
+          "description": "(Optional) Specify the page number from which to retrieve the results. Default value is 1."
         },
         {
           "name": "size",
@@ -1063,8 +1062,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Select a status to search in social media threats and retrieve results containing the specified status. You can select from following options: Active False Positive Takedown Resolved",
-          "description": "(Optional) Select a status to search in social media threats and retrieve results containing the specified status. You can select from following options: Active False Positive Takedown Resolved",
+          "tooltip": "Select a status to search in social media threats and retrieve results containing the specified status. You can select from the following options: Active False Positive Takedown Resolved",
+          "description": "(Optional) Select a status to search in social media threats and retrieve results containing the specified status. You can select from the following options: Active False Positive Takedown Resolved",
           "options": [
             "Active",
             "False Positive",
@@ -1185,8 +1184,7 @@
       "category": "investigation",
       "visible": true,
       "enabled": true,
-      "parameters": [
-      ],
+      "parameters": [],
       "output_schema": {
         "count_by_original_domain": {
           "aggregations": [
@@ -1320,8 +1318,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Specify a keyword to search in takedown requests and retrieve results containing the specified keyword.",
-          "description": "(Optional) Specify a keyword to search in takedown requests and retrieve results containing the specified keyword."
+          "tooltip": "Specify a keyword to search in take-down requests and retrieve results containing the specified keyword in ticket Id or entity fields. The entity field may contain domain name, title of a report, or Phished Domain.",
+          "description": "(Optional) Specify a keyword to search in take-down requests and retrieve results containing the specified keyword in ticket Id or entity fields. The entity field may contain domain name, title of a report, or Phished Domain."
         },
         {
           "name": "status",
@@ -1330,8 +1328,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Select a status to search in take-down requests and retrieve results containing the specified status. You can select from following options: REQUESTED, ACKNOWLEDGED, REJECTED, APPROVED, INITIATED, SUCCESSFULLY_CLOSED, UNSUCCESSFULLY_CLOSED.",
-          "description": "(Optional) Select a status to search in take-down requests and retrieve results containing the specified status. You can select from following options: REQUESTED, ACKNOWLEDGED, REJECTED, APPROVED, INITIATED, SUCCESSFULLY_CLOSED, UNSUCCESSFULLY_CLOSED.",
+          "tooltip": "Select a status to search in take-down requests and retrieve results containing the specified status. You can select from the following options: Requested Acknowledged Rejected Approved Initiated Successfully Closed Unsuccessfully Closed",
+          "description": "(Optional) Select a status to search in take-down requests and retrieve results containing the specified status. You can select from the following options: Requested Acknowledged Rejected Approved Initiated Successfully Closed Unsuccessfully Closed",
           "options": [
             "REQUESTED",
             "ACKNOWLEDGED",
@@ -1349,8 +1347,8 @@
           "editable": true,
           "visible": true,
           "required": false,
-          "tooltip": "Select a category to search in take-down requests and retrieve results containing the specified category. you can select from the following options: DomainThreat, RogueApps, SocialMediaThreat.",
-          "description": "(Optional) Select a category to search in take-down requests and retrieve results containing the specified category. you can select from the following options: DomainThreat, RogueApps, SocialMediaThreat.",
+          "tooltip": "Select a category to search in take-down requests and retrieve results containing the specified category. you can select from the following options: DomainThreat RogueApps SocialMediaThreat",
+          "description": "(Optional) Select a category to search in take-down requests and retrieve results containing the specified category. you can select from the following options: DomainThreat RogueApps SocialMediaThreat",
           "options": [
             "DomainThreat",
             "RogueApps",
@@ -1419,7 +1417,7 @@
       "operation": "update_code_repo_status",
       "title": "Update Code Repo Status",
       "annotation": "update_code_repo_status",
-      "description": "Updates the status of the Code Repo record.",
+      "description": "Updates the status of the Code Repo based on the code repo ID and the status to update.",
       "category": "investigation",
       "is_config_required": true,
       "visible": true,
@@ -1435,8 +1433,8 @@
           "editable": true,
           "visible": true,
           "required": true,
-          "description": "Specify the Code Repo ID to update the status.",
-          "tooltip": "Specify the Code Repo ID to update the status."
+          "description": "Specify the ID of the code repo whose status to update on Fortinet FortiRecon Brand Protection.",
+          "tooltip": "Specify the ID of the code repo whose status to update on Fortinet FortiRecon Brand Protection."
         },
         {
           "title": "Status",
@@ -1445,8 +1443,8 @@
           "visible": true,
           "editable": true,
           "required": true,
-          "tooltip": "Specify the status to update the Code Repo.",
-          "description": "Specify the status to update the Code Repo. You can choose from ACTIVE, RESOLVED, IGNORED.",
+          "tooltip": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Active Resolved Ignored",
+          "description": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Active Resolved Ignored",
           "options": [
             "ACTIVE",
             "RESOLVED",
@@ -1459,7 +1457,7 @@
       "operation": "update_domain_threat_status",
       "title": "Update Domain Threat Status",
       "annotation": "update_domain_threat_status",
-      "description": "Updates the status of the Domain Threat record.",
+      "description": "Updates the status of the Domain Threat record based on the Domain Threat ID and the status to update.",
       "category": "investigation",
       "is_config_required": true,
       "visible": true,
@@ -1475,8 +1473,8 @@
           "editable": true,
           "visible": true,
           "required": true,
-          "description": "Specify the Domain Threat ID to update the status.",
-          "tooltip": "Specify the Domain Threat ID to update the status."
+          "description": "Specify the threat ID of the domain whose status to update on Fortinet FortiRecon Brand Protection.",
+          "tooltip": "Specify the threat ID of the domain whose status to update on Fortinet FortiRecon Brand Protection."
         },
         {
           "title": "Status",
@@ -1485,8 +1483,8 @@
           "visible": true,
           "editable": true,
           "required": true,
-          "tooltip": "Specify the status to update the Domain Threat.",
-          "description": "Specify the status to update the Domain Threat. You can choose from ACTIVE, RESOLVED, FALSE_POSITIVE, TAKEDOWN, SAFELIST.",
+          "tooltip": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Active Resolved False Positive Takedown Safelist",
+          "description": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Active Resolved False Positive Takedown Safelist",
           "options": [
             "ACTIVE",
             "RESOLVED",
@@ -1501,7 +1499,7 @@
       "operation": "update_open_bucket_exposure_status",
       "title": "Update Open Bucket Exposure Status",
       "annotation": "update_open_bucket_exposure_status",
-      "description": "Updates the status of the Open Bucket Exposure record.",
+      "description": "Updates the status of the Open Bucket Exposure record based on the Open Bucket Exposure ID and the status to update.",
       "category": "investigation",
       "is_config_required": true,
       "visible": true,
@@ -1517,8 +1515,8 @@
           "editable": true,
           "visible": true,
           "required": true,
-          "description": "Specify the Open Bucket Exposure ID to update the status.",
-          "tooltip": "Specify the Open Bucket Exposure ID to update the status."
+          "description": "Specify the exposure ID of the open bucket whose status to update on Fortinet FortiRecon Brand Protection.",
+          "tooltip": "Specify the exposure ID of the open bucket whose status to update on Fortinet FortiRecon Brand Protection."
         },
         {
           "title": "Status",
@@ -1527,8 +1525,8 @@
           "visible": true,
           "editable": true,
           "required": true,
-          "tooltip": "Specify the status to update the Open Bucket Exposure.",
-          "description": "Specify the status to update the Open Bucket Exposure. You can choose from ACTIVE, RESOLVED, IGNORED.",
+          "tooltip": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Active Resolved Ignored",
+          "description": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Active Resolved Ignored",
           "options": [
             "ACTIVE",
             "RESOLVED",
@@ -1541,7 +1539,7 @@
       "operation": "update_rogue_app_exposure_status",
       "title": "Update Rogue App Status",
       "annotation": "update_rogue_app_exposure_status",
-      "description": "Updates the status of the Rogue App record.",
+      "description": "Updates the status of the Rogue App record based on the Rogue App ID and the status to update.",
       "category": "investigation",
       "is_config_required": true,
       "visible": true,
@@ -1557,8 +1555,8 @@
           "editable": true,
           "visible": true,
           "required": true,
-          "description": "Specify the Rogue App ID to update the status.",
-          "tooltip": "Specify the Rogue App ID to update the status."
+          "description": "Specify the ID of the rogue app whose status to update on Fortinet FortiRecon Brand Protection.",
+          "tooltip": "Specify the ID of the rogue app whose status to update on Fortinet FortiRecon Brand Protection."
         },
         {
           "title": "Status",
@@ -1567,8 +1565,8 @@
           "visible": true,
           "editable": true,
           "required": true,
-          "tooltip": "Specify the status to update the Rogue App.",
-          "description": "Specify the status to update the Rogue App. You can choose from UNOFFICIAL, RESOLVED, FALSE_POSITIVE, OFFICIAL, ROGUE, TAKEDOWN.",
+          "tooltip": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Unofficial Resolved False Positive Official Rogue Takedown",
+          "description": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Unofficial Resolved False Positive Official Rogue Takedown",
           "options": [
             "UNOFFICIAL",
             "RESOLVED",
@@ -1584,7 +1582,7 @@
       "operation": "update_social_media_threat_status",
       "title": "Update Social Media Threat Status",
       "annotation": "update_social_media_threat_status",
-      "description": "Updates the status of the Social Media Threat record.",
+      "description": "Updates the status of the Social Media Threat record based on the Social Media Threat ID and the status to update.",
       "category": "investigation",
       "is_config_required": true,
       "visible": true,
@@ -1600,8 +1598,8 @@
           "editable": true,
           "visible": true,
           "required": true,
-          "description": "Specify the Social Media Threat ID to update the status.",
-          "tooltip": "Specify the Social Media Threat ID to update the status."
+          "description": "Specify the threat ID of the social media whose status to update on Fortinet FortiRecon Brand Protection.",
+          "tooltip": "Specify the threat ID of the social media whose status to update on Fortinet FortiRecon Brand Protection."
         },
         {
           "title": "Status",
@@ -1610,8 +1608,8 @@
           "visible": true,
           "editable": true,
           "required": true,
-          "tooltip": "Specify the status to update the Social Media Threat.",
-          "description": "Specify the status to update the Social Media Threat. You can choose from ACTIVE, FALSE_POSITIVE, TAKEDOWN.",
+          "tooltip": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Active False Positive Takedown",
+          "description": "Specify the status to update on Fortinet FortiRecon Brand Protection. You can choose from the following options: Active False Positive Takedown",
           "options": [
             "ACTIVE",
             "FALSE_POSITIVE",
