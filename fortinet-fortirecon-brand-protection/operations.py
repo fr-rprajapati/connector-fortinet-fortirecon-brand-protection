@@ -8,6 +8,7 @@ Copyright end
 from datetime import datetime
 import requests
 from connectors.core.connector import get_logger, ConnectorError
+from .task import create_task, update_task
 
 logger = get_logger("fortinet-fortirecon-brand-protection")
 
@@ -248,5 +249,7 @@ operations = {
     "update_domain_threat_status": update_domain_threat_status,
     "update_open_bucket_exposure_status": update_open_bucket_exposure_status,
     "update_rogue_app_exposure_status": update_rogue_app_exposure_status,
-    "update_social_media_threat_status": update_social_media_threat_status
+    "update_social_media_threat_status": update_social_media_threat_status,
+    "create_task": create_task,
+    "update_task": update_task
 }
