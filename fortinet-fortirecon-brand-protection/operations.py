@@ -8,7 +8,6 @@ Copyright end
 from datetime import datetime
 import requests
 from connectors.core.connector import get_logger, ConnectorError
-from .task import create_task, update_task
 
 logger = get_logger("fortinet-fortirecon-brand-protection")
 
@@ -217,6 +216,17 @@ def update_social_media_threat_status(config, params):
     response = MK.make_request(endpoint=endpoint, method="PATCH", params=params, data=payload)
     return response
 
+def create_task(config, params):
+    MK = MakeRestApiCall(config=config)
+    endpoint = "/security-orchestration/{org_id}/tasks"
+    response = MK.make_request(endpoint=endpoint, method="POST", params=params)
+    return response
+
+def update_task(config, params):
+    MK = MakeRestApiCall(config=config)
+    endpoint = "/security-orchestration/{org_id}"+"/tasks/{0}".format(params.pop("task_id"))
+    response = MK.make_request(endpoint=endpoint, method="PATCH", params=params)
+    return response
 
 def _check_health(config):
     try:
@@ -224,7 +234,6 @@ def _check_health(config):
         return True
     except Exception as e:
         raise Exception(str(e))
-
 
 operations = {
     "get_code_repos": get_code_repos,
