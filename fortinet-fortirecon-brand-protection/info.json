@@ -1617,6 +1617,95 @@
           ]
         }
       ]
+    },
+    {
+      "operation": "create_task",
+      "title": "Create Task",
+      "annotation": "create_task",
+      "description": "Create task",
+      "category": "investigation",
+      "is_config_required": true,
+      "visible": false,
+      "enabled": true,
+      "output_schema": {
+        "id": "",
+        "message": ""
+      },
+      "parameters": [
+        {
+          "title": "Requester",
+          "name": "requester",
+          "type": "text",
+          "visible": false,
+          "editable": true,
+          "required": false,
+          "placeholder": "",
+          "tooltip": "Requestor actor user",
+          "description": "Requestor actor."
+        },
+        {
+          "title": "Request",
+          "name": "request",
+          "type": "text",
+          "visible": false,
+          "editable": true,
+          "required": false,
+          "placeholder": "",
+          "tooltip": "Request message.",
+          "description": "Request message."
+        },
+        {
+          "title": "Task ID",
+          "name": "taskId",
+          "type": "text",
+          "visible": false,
+          "editable": true,
+          "required": false,
+          "placeholder": "",
+          "tooltip": "Task ID",
+          "description": "Task ID."
+        }
+      ]
+    },
+    {
+      "operation": "update_task",
+      "title": "Update task",
+      "annotation": "update_task",
+      "description": "Update task",
+      "category": "investigation",
+      "is_config_required": true,
+      "visible": false,
+      "enabled": true,
+      "output_schema": {
+        "status": ""
+      },
+      "parameters": [
+        {
+          "name": "task_id",
+          "title": "Task ID",
+          "type": "text",
+          "editable": true,
+          "visible": false,
+          "required": true,
+          "description": "Specify the task ID to update the status.",
+          "tooltip": "Specify the task ID to update the status."
+        },
+        {
+          "title": "Status",
+          "name": "status",
+          "type": "select",
+          "visible": false,
+          "editable": true,
+          "required": true,
+          "tooltip": "Specify the status to update the Task.",
+          "description": "Specify the status to update the task. You can choose from pending, failed, completed.",
+          "options": [
+            "completed",
+            "pending",
+            "failed"
+          ]
+        }
+      ]
     }
   ]
 }
