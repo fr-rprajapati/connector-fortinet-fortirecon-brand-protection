@@ -47,7 +47,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.1.0",
+                "version": "2.2.0",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_code_repo_exposures",
                 "operationTitle": "Get Code Repo Exposures"
