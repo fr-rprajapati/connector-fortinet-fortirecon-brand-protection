@@ -1,0 +1,217 @@
+[
+  {
+    "event_id": "FR.BP.DT.Create",
+    "name": "New BP Domain Threat",
+    "description": "Run template on new DT creation",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.0",
+    "connector_action": "get_domain_threats",
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "url": "https://acmedemo55.com/login.html",
+        "tags": [
+          "phishing",
+          "typosquatting",
+          "brand_mpersonation",
+          "mx_record"
+        ],
+        "domain": "acmedemo55.com",
+        "source_name": "Customer Input",
+        "original_domain": "acmedemo.com",
+        "notable_change_ts": "2025-25-09T00:00:00"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  },
+  {
+    "event_id": "FR.BP.GL.Create",
+    "name": "New BP Git Leak",
+    "description": "new Git Repo Exposed",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.0",
+    "connector_action": "get_code_repos",
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "status": "ACTIVE",
+        "added_ts": "2024-06-24T13:21:51.070174",
+        "repo_url": "https://github.com/prakashr7d/urshop_bot",
+        "attribute": "anand.gaurav@icicibank.com",
+        "repo_name": "prakashr7d/urshop_bot",
+        "risk_level": "LOW",
+        "files_count": 1,
+        "attribute_type": "Email",
+        "matched_domain": "icicibank.com",
+        "latest_record_date": "2023-10-19T20:29:19.268000"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  },
+  {
+    "event_id": "FR.BP.OB.Create",
+    "name": "New BP Open Bucket",
+    "description": "new open bucket found",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.0",
+    "connector_action": "get_open_bucket_exposures",
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "url": "https://livebackup.blob.core.windows.net/livebackup/CodeAugust2020/reportjunction.com/Preview/Wipro-Limited-2011-85314.pdf",
+        "bucket": "livebackup.blob.core.windows.net",
+        "status": "ACTIVE",
+        "added_ts": "2023-03-31T12:18:10.077000",
+        "bucket_id": 8281,
+        "file_name": "Wipro-Limited-2011-85314.pdf",
+        "file_size": 628401,
+        "file_type": "pdf",
+        "full_path": "livebackup/CodeAugust2020/reportjunction.com/Preview/Wipro-Limited-2011-85314.pdf",
+        "bucket_type": "azure",
+        "accessibility_status": "ACCESSIBLE"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  },
+  {
+    "event_id": "FR.BP.SMT.Create",
+    "name": "New BP Social Media Threat",
+    "description": "Creation of new SM threat.",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.0",
+    "connector_action": "get_social_media_threats",
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "status": "ACTIVE",
+        "added_ts": "2023-05-10T14:06:22.489000",
+        "location": "string",
+        "media_type": "INSTAGRAM",
+        "handle_name": "model_est",
+        "is_verified": false,
+        "posts_count": 111,
+        "profile_url": "https://instagram.com/model_est",
+        "profile_name": "Esther Ayomide Shobo",
+        "friends_count": 0,
+        "followers_count": 2571,
+        "profile_creation_ts": "string"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  },
+  {
+    "event_id": "FR.BP.RA.Create",
+    "name": "New BP Rogue App",
+    "description": "new Rogue app detected.",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.0",
+    "connector_action": "get_rogue_apps",
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "status": "ROGUE",
+        "app_name": "Stamford Health",
+        "app_size": "70",
+        "appstore": "applestore",
+        "last_seen": "2025-06-10T14:39:54.575920",
+        "first_seen": "2025-06-10T14:39:54.535804",
+        "listing_url": "https://apps.apple.com/us/app/stamford-health/id1100450800",
+        "download_url": "N/A",
+        "package_name": "id1100450800",
+        "developer_url": "https://apps.apple.com/us/developer/stamford-health-system/id1383867079",
+        "developer_name": "Stamford Health System"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  }
+]
