@@ -8,8 +8,8 @@
     ],
     "connector_name": "fortinet-fortirecon-brand-protection",
     "connector_label": "BP",
-    "connector_version": "2.2.0",
-    "connector_action": "get_domain_threats",
+    "connector_version": "2.2.1",
+    "connector_action": null,
     "connector_action_inputs": {},
     "connector_icon": null,
     "connector_mapping": {},
@@ -22,15 +22,13 @@
       {
         "url": "https://acmedemo55.com/login.html",
         "tags": [
-          "phishing",
-          "typosquatting",
-          "brand_mpersonation",
-          "mx_record"
+          "tag1",
+          "tag2"
         ],
-        "domain": "acmedemo55.com",
+        "domain": "example.com",
         "source_name": "Customer Input",
-        "original_domain": "acmedemo.com",
-        "notable_change_ts": "2025-25-09T00:00:00"
+        "original_domain": "example.com",
+        "notable_change_ts": "2000-01-01T01:01:00"
       }
     ],
     "schedule": null,
@@ -51,8 +49,8 @@
     ],
     "connector_name": "fortinet-fortirecon-brand-protection",
     "connector_label": "BP",
-    "connector_version": "2.2.0",
-    "connector_action": "get_code_repos",
+    "connector_version": "2.2.1",
+    "connector_action": null,
     "connector_action_inputs": {},
     "connector_icon": null,
     "connector_mapping": {},
@@ -64,15 +62,15 @@
     "sample_data": [
       {
         "status": "ACTIVE",
-        "added_ts": "2024-06-24T13:21:51.070174",
-        "repo_url": "https://github.com/prakashr7d/urshop_bot",
-        "attribute": "anand.gaurav@icicibank.com",
-        "repo_name": "prakashr7d/urshop_bot",
+        "added_ts": "2000-01-01T01:01:00.070174",
+        "repo_url": "https://github.com/example/repo1",
+        "attribute": "anand.gaurav@example.com",
+        "repo_name": "example/repo1",
         "risk_level": "LOW",
         "files_count": 1,
         "attribute_type": "Email",
-        "matched_domain": "icicibank.com",
-        "latest_record_date": "2023-10-19T20:29:19.268000"
+        "matched_domain": "example.com",
+        "latest_record_date": "2000-01-01T01:01:00"
       }
     ],
     "schedule": null,
@@ -93,8 +91,8 @@
     ],
     "connector_name": "fortinet-fortirecon-brand-protection",
     "connector_label": "BP",
-    "connector_version": "2.2.0",
-    "connector_action": "get_open_bucket_exposures",
+    "connector_version": "2.2.1",
+    "connector_action": null,
     "connector_action_inputs": {},
     "connector_icon": null,
     "connector_mapping": {},
@@ -105,15 +103,15 @@
     "poll": null,
     "sample_data": [
       {
-        "url": "https://livebackup.blob.core.windows.net/livebackup/CodeAugust2020/reportjunction.com/Preview/Wipro-Limited-2011-85314.pdf",
-        "bucket": "livebackup.blob.core.windows.net",
+        "url": "https://example.com/path/example-2011.pdf",
+        "bucket": "example.net",
         "status": "ACTIVE",
-        "added_ts": "2023-03-31T12:18:10.077000",
-        "bucket_id": 8281,
-        "file_name": "Wipro-Limited-2011-85314.pdf",
-        "file_size": 628401,
+        "added_ts": "2000-01-01T01:01:00",
+        "bucket_id": 1000,
+        "file_name": "example-2011.pdf",
+        "file_size": 100000,
         "file_type": "pdf",
-        "full_path": "livebackup/CodeAugust2020/reportjunction.com/Preview/Wipro-Limited-2011-85314.pdf",
+        "full_path": "/path/Preview/example-2011.pdf",
         "bucket_type": "azure",
         "accessibility_status": "ACCESSIBLE"
       }
@@ -136,8 +134,8 @@
     ],
     "connector_name": "fortinet-fortirecon-brand-protection",
     "connector_label": "BP",
-    "connector_version": "2.2.0",
-    "connector_action": "get_social_media_threats",
+    "connector_version": "2.2.1",
+    "connector_action": null,
     "connector_action_inputs": {},
     "connector_icon": null,
     "connector_mapping": {},
@@ -149,16 +147,16 @@
     "sample_data": [
       {
         "status": "ACTIVE",
-        "added_ts": "2023-05-10T14:06:22.489000",
+        "added_ts": "2000-01-01T01:01:00",
         "location": "string",
         "media_type": "INSTAGRAM",
-        "handle_name": "model_est",
+        "handle_name": "model_test",
         "is_verified": false,
         "posts_count": 111,
-        "profile_url": "https://instagram.com/model_est",
-        "profile_name": "Esther Ayomide Shobo",
+        "profile_url": "https://instagram.com/model_test",
+        "profile_name": "Model test",
         "friends_count": 0,
-        "followers_count": 2571,
+        "followers_count": 1000,
         "profile_creation_ts": "string"
       }
     ],
@@ -180,8 +178,8 @@
     ],
     "connector_name": "fortinet-fortirecon-brand-protection",
     "connector_label": "BP",
-    "connector_version": "2.2.0",
-    "connector_action": "get_rogue_apps",
+    "connector_version": "2.2.1",
+    "connector_action": null,
     "connector_action_inputs": {},
     "connector_icon": null,
     "connector_mapping": {},
@@ -193,16 +191,16 @@
     "sample_data": [
       {
         "status": "ROGUE",
-        "app_name": "Stamford Health",
-        "app_size": "70",
+        "app_name": "Example APP",
+        "app_size": "10",
         "appstore": "applestore",
-        "last_seen": "2025-06-10T14:39:54.575920",
-        "first_seen": "2025-06-10T14:39:54.535804",
-        "listing_url": "https://apps.apple.com/us/app/stamford-health/id1100450800",
+        "last_seen": "2000-01-01T01:01:00.575920",
+        "first_seen": "2000-01-01T01:01:00.535804",
+        "listing_url": "https://apps.apple.com/us/app/example-app/id1100000000",
         "download_url": "N/A",
         "package_name": "id1100450800",
-        "developer_url": "https://apps.apple.com/us/developer/stamford-health-system/id1383867079",
-        "developer_name": "Stamford Health System"
+        "developer_url": "https://apps.apple.com/us/developer/example-app-system/id1100000000",
+        "developer_name": "Example App System"
       }
     ],
     "schedule": null,
