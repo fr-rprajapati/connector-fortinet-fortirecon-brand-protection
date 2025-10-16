@@ -47,7 +47,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_code_repo_exposures",
                 "operationTitle": "Get Code Repo Exposures"
@@ -125,7 +125,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_code_repos",
                 "operationTitle": "Get Code Repositories"
@@ -193,7 +193,7 @@
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_code_repos_stats",
                 "operationTitle": "Get Code Repos Statistics"
@@ -261,7 +261,7 @@
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_code_repo_matched_domains_stats",
                 "operationTitle": "Get Code Repo Matched Domains Statistics"
@@ -339,7 +339,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_domain_threats",
                 "operationTitle": "Get Domain Threats"
@@ -409,7 +409,7 @@
                 "params": {
                   "id": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_domain_threats_by_id",
                 "operationTitle": "Get Domain Threats By ID"
@@ -484,7 +484,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_executive_exposures",
                 "operationTitle": "Get Executive Exposures"
@@ -556,7 +556,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_executive_profiles",
                 "operationTitle": "Get Executive Profiles"
@@ -633,7 +633,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_open_bucket_exposures",
                 "operationTitle": "Get Open Bucket Exposures"
@@ -709,7 +709,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_rogue_apps",
                 "operationTitle": "Get Rogue Apps"
@@ -779,7 +779,7 @@
                 "params": {
                   "id": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_rogue_app_by_id",
                 "operationTitle": "Get Rogue App By ID"
@@ -858,7 +858,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_social_media_threats",
                 "operationTitle": "Get Social Media Threats"
@@ -926,7 +926,7 @@
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_domain_threats_stats",
                 "operationTitle": "Get Domain Threats Statistics"
@@ -994,7 +994,7 @@
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_original_domains_stats",
                 "operationTitle": "Get Original Domains Statistics"
@@ -1062,7 +1062,7 @@
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_open_bucket_exposures_stats",
                 "operationTitle": "Get Open Bucket Exposures Statistics"
@@ -1130,7 +1130,7 @@
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_social_media_threats_stats",
                 "operationTitle": "Get Social Media Threats Statistics"
@@ -1198,7 +1198,7 @@
                 "name": "Fortinet FortiRecon Brand Protection",
                 "config": "''",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_tags",
                 "operationTitle": "Get Tags"
@@ -1274,7 +1274,7 @@
                   "page": "",
                   "size": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "get_takedown_requests",
                 "operationTitle": "Get Takedown Requests"
@@ -1345,7 +1345,7 @@
                   "repo_id": "",
                   "status": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "update_code_repo_status",
                 "operationTitle": "Update Code Repo Status"
@@ -1416,7 +1416,7 @@
                   "domain_threat_id": "",
                   "status": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "update_domain_threat_status",
                 "operationTitle": "Update Domain Threat Status"
@@ -1487,7 +1487,7 @@
                   "open_bucket_exposure_id": "",
                   "status": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "update_open_bucket_exposure_status",
                 "operationTitle": "Update Open Bucket Exposure Status"
@@ -1558,7 +1558,7 @@
                   "rogue_app_exposure_id": "",
                   "status": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "update_rogue_app_exposure_status",
                 "operationTitle": "Update Rogue App Status"
@@ -1629,7 +1629,7 @@
                   "social_media_threat_id": "",
                   "status": ""
                 },
-                "version": "2.2.0",
+                "version": "2.2.1",
                 "connector": "fortinet-fortirecon-brand-protection",
                 "operation": "update_social_media_threat_status",
                 "operationTitle": "Update Social Media Threat Status"
@@ -1666,7 +1666,7 @@
           ]
         }
       ],
-      "name": "Sample - Fortinet FortiRecon Brand Protection - 2.2.0",
+      "name": "Sample - Fortinet FortiRecon Brand Protection - 2.2.1",
       "description": "FortiRecon is a Digital Risk Protection Service (DRPS) product that provides an outside-the-network view to the risks posed to your enterprise.",
       "visible": true,
       "recordTags": [
