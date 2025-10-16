@@ -1,8 +1,8 @@
 [
   {
     "event_id": "FR.BP.DT.Create",
-    "name": "New BP Domain Threat",
-    "description": "Run template on new DT creation",
+    "name": "BP New Domain Threat",
+    "description": "Run template on new DT creation in FortiRecon Brand Protection",
     "type": [
       "PUSH"
     ],
@@ -42,8 +42,8 @@
   },
   {
     "event_id": "FR.BP.GL.Create",
-    "name": "New BP Git Leak",
-    "description": "new Git Repo Exposed",
+    "name": "BP New Git Leak",
+    "description": "New Git Repo Exposed in FortiRecon Brand Protection",
     "type": [
       "PUSH"
     ],
@@ -84,8 +84,8 @@
   },
   {
     "event_id": "FR.BP.OB.Create",
-    "name": "New BP Open Bucket",
-    "description": "new open bucket found",
+    "name": "BP New Open Bucket",
+    "description": "New open bucket found in FortiRecon Brand Protection",
     "type": [
       "PUSH"
     ],
@@ -127,8 +127,8 @@
   },
   {
     "event_id": "FR.BP.SMT.Create",
-    "name": "New BP Social Media Threat",
-    "description": "Creation of new SM threat.",
+    "name": "BP New Social Media Threat",
+    "description": "Creation of new SM threat in FortiRecon Brand Protection.",
     "type": [
       "PUSH"
     ],
@@ -171,8 +171,8 @@
   },
   {
     "event_id": "FR.BP.RA.Create",
-    "name": "New BP Rogue App",
-    "description": "new Rogue app detected.",
+    "name": "BP New Rogue App",
+    "description": "New Rogue app detected in FortiRecon Brand Protection.",
     "type": [
       "PUSH"
     ],
