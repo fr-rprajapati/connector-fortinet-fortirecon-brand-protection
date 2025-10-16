@@ -1,0 +1,215 @@
+[
+  {
+    "event_id": "FR.BP.DT.Create",
+    "name": "BP New Domain Threat",
+    "description": "Run template on new DT creation in FortiRecon Brand Protection",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.1",
+    "connector_action": null,
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "url": "https://acmedemo55.com/login.html",
+        "tags": [
+          "tag1",
+          "tag2"
+        ],
+        "domain": "example.com",
+        "source_name": "Customer Input",
+        "original_domain": "example.com",
+        "notable_change_ts": "2000-01-01T01:01:00"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  },
+  {
+    "event_id": "FR.BP.GL.Create",
+    "name": "BP New Git Leak",
+    "description": "New Git Repo Exposed in FortiRecon Brand Protection",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.1",
+    "connector_action": null,
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "status": "ACTIVE",
+        "added_ts": "2000-01-01T01:01:00.070174",
+        "repo_url": "https://github.com/example/repo1",
+        "attribute": "anand.gaurav@example.com",
+        "repo_name": "example/repo1",
+        "risk_level": "LOW",
+        "files_count": 1,
+        "attribute_type": "Email",
+        "matched_domain": "example.com",
+        "latest_record_date": "2000-01-01T01:01:00"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  },
+  {
+    "event_id": "FR.BP.OB.Create",
+    "name": "BP New Open Bucket",
+    "description": "New open bucket found in FortiRecon Brand Protection",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.1",
+    "connector_action": null,
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "url": "https://example.com/path/example-2011.pdf",
+        "bucket": "example.net",
+        "status": "ACTIVE",
+        "added_ts": "2000-01-01T01:01:00",
+        "bucket_id": 1000,
+        "file_name": "example-2011.pdf",
+        "file_size": 100000,
+        "file_type": "pdf",
+        "full_path": "/path/Preview/example-2011.pdf",
+        "bucket_type": "azure",
+        "accessibility_status": "ACCESSIBLE"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  },
+  {
+    "event_id": "FR.BP.SMT.Create",
+    "name": "BP New Social Media Threat",
+    "description": "Creation of new SM threat in FortiRecon Brand Protection.",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.1",
+    "connector_action": null,
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "status": "ACTIVE",
+        "added_ts": "2000-01-01T01:01:00",
+        "location": "string",
+        "media_type": "INSTAGRAM",
+        "handle_name": "model_test",
+        "is_verified": false,
+        "posts_count": 111,
+        "profile_url": "https://instagram.com/model_test",
+        "profile_name": "Model test",
+        "friends_count": 0,
+        "followers_count": 1000,
+        "profile_creation_ts": "string"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  },
+  {
+    "event_id": "FR.BP.RA.Create",
+    "name": "BP New Rogue App",
+    "description": "New Rogue app detected in FortiRecon Brand Protection.",
+    "type": [
+      "PUSH"
+    ],
+    "connector_name": "fortinet-fortirecon-brand-protection",
+    "connector_label": "BP",
+    "connector_version": "2.2.1",
+    "connector_action": null,
+    "connector_action_inputs": {},
+    "connector_icon": null,
+    "connector_mapping": {},
+    "trigger_condition": {
+      "logic": "AND",
+      "filters": []
+    },
+    "poll": null,
+    "sample_data": [
+      {
+        "status": "ROGUE",
+        "app_name": "Example APP",
+        "app_size": "10",
+        "appstore": "applestore",
+        "last_seen": "2000-01-01T01:01:00.575920",
+        "first_seen": "2000-01-01T01:01:00.535804",
+        "listing_url": "https://apps.apple.com/us/app/example-app/id1100000000",
+        "download_url": "N/A",
+        "package_name": "id1100450800",
+        "developer_url": "https://apps.apple.com/us/developer/example-app-system/id1100000000",
+        "developer_name": "Example App System"
+      }
+    ],
+    "schedule": null,
+    "batch_preference": 0,
+    "start_time": null,
+    "tag": null,
+    "installed_by": "SOLUTION_PACK",
+    "default": true,
+    "createUser": null,
+    "modifyUser": null
+  }
+]
