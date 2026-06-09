@@ -1,7 +1,7 @@
 {
   "name": "fortinet-fortirecon-brand-protection",
   "label": "Fortinet FortiRecon Brand Protection",
-  "version": "2.2.1",
+  "version": "2.1.1",
   "description": "FortiRecon is a Digital Risk Protection Service (DRPS) product that provides an outside-the-network view to the risks posed to your enterprise.",
   "publisher": "Fortinet",
   "contributor": "Ramkrushna Pathade",
@@ -10,7 +10,7 @@
   "category": "Attack Surface Management",
   "icon_small_name": "small_icon.png",
   "icon_large_name": "large_icon.png",
-  "help_online": "",
+  "help_online": "https://docs.fortinet.com/document/fortisoar/2.1.0/fortinet-fortirecon-brand-protection/1018/fortinet-fortirecon-brand-protection-v2-1-0",
   "configuration": {
     "fields": [
       {
