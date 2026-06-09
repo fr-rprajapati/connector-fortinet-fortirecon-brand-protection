@@ -218,6 +218,16 @@ def update_social_media_threat_status(config, params):
     response = MK.make_request(endpoint=endpoint, method="PATCH", params=params, data=payload)
     return response
 
+def get_resource_comments(config, params):
+    request = MakeRestApiCall(config=config)
+    resource_id = params.pop("resource_id")
+    return request.make_request(method="GET", endpoint=f"/resource_comments/{resource_id}", params=params)
+
+def add_resource_comment(config, payload):
+    request = MakeRestApiCall(config=config)
+    return request.make_request(method="POST", endpoint=f"/resource_comments", json_data=payload)
+
+
 def create_task(config, params):
     MK = MakeRestApiCall(config=config)
     endpoint = "/security-orchestration/{org_id}/tasks"
@@ -262,5 +272,7 @@ operations = {
     "update_rogue_app_exposure_status": update_rogue_app_exposure_status,
     "update_social_media_threat_status": update_social_media_threat_status,
     "create_task": create_task,
-    "update_task": update_task
+    "update_task": update_task,
+    "get_resource_comments": get_resource_comments,
+    "add_resource_comment": add_resource_comment
 }
