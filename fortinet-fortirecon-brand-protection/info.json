@@ -1706,6 +1706,109 @@
           ]
         }
       ]
+    },
+    {
+      "operation": "get_resource_comments",
+      "title": "Get Resource Comments",
+      "annotation": "get_resource_comments",
+      "description": "Returns the list of comments for given resource for the specified organisation. Resources includes: OPEN_BUCKETS, DOMAIN_THREATS, CODE_REPOS, SOCIAL_MEDIA_PROFILES",
+      "category": "investigation",
+      "is_config_required": true,
+      "visible": true,
+      "enabled": true,
+      "parameters": [
+        {
+          "name": "resource_id",
+          "title": "Resource ID",
+          "type": "text",
+          "editable": true,
+          "visible": true,
+          "required": true,
+          "tooltip": "Resource id to fetch comment for specific resource OPEN_BUCKETS, DOMAIN_THREATS, CODE_REPOS, SOCIAL_MEDIA_PROFILES. Get the resource_id from respected resource list api.",
+          "description": "Resource id to fetch comment for specific resource like domain_threat, social_media etc. Get the resource_id from respected resource list api."
+        },
+        {
+          "name": "page",
+          "title": "Page",
+          "type": "integer",
+          "editable": true,
+          "visible": true,
+          "required": false,
+          "tooltip": "Specify the page number from which to retrieve the results. Default value is 1.",
+          "description": "(Optional) Specify the page number from which to retrieve the results. Default value is 1."
+        },
+        {
+          "name": "size",
+          "title": "Size",
+          "type": "integer",
+          "editable": true,
+          "visible": true,
+          "required": false,
+          "tooltip": "Specify the number of records to fetch per page. Default value is 10 and you can specify a maximum value of 500 per page.",
+          "description": "(Optional) Specify the number of records to fetch per page. Default value is 10 and you can specify a maximum value of 500 per page."
+        }
+      ],
+      "output_schema": {
+        "hits": [
+          {
+            "id": "",
+            "comment_text": "",
+            "resource_type": "",
+            "added_ts": ""
+          }
+        ],
+        "page": "",
+        "size": "",
+        "total": ""
+      }
+    },
+    {
+      "operation": "add_resource_comment",
+      "title": "Add Resource Comment",
+      "annotation": "add_resource_comment",
+      "description": "Add Comment to the resources. Resouces includes: OPEN_BUCKETS, DOMAIN_THREATS, CODE_REPOS, SOCIAL_MEDIA_PROFILES",
+      "category": "investigation",
+      "is_config_required": true,
+      "visible": false,
+      "enabled": true,
+      "output_schema": {
+        "message": ""
+      },
+      "parameters": [
+        {
+          "title": "Request ID",
+          "name": "resource_id",
+          "type": "text",
+          "visible": false,
+          "editable": true,
+          "required": true,
+          "placeholder": "",
+          "tooltip": "This resource_id can be fetched from the appropriate apis. example: 29b3a2143256f4892c69c4affd7b1657.",
+          "description": "Resource id is ID for specified resource on which comment has to be added. "
+        },
+        {
+          "title": "Resource Type",
+          "name": "resource_type",
+          "type": "text",
+          "visible": false,
+          "editable": true,
+          "required": true,
+          "placeholder": "",
+          "tooltip": "Acceptable values are OPEN_BUCKETS, DOMAIN_THREATS, CODE_REPOS, SOCIAL_MEDIA_PROFILES",
+          "description": "Specify resource type for adding comment."
+        },
+        {
+          "title": "Comment Text",
+          "name": "comment_text",
+          "type": "text",
+          "visible": false,
+          "editable": true,
+          "required": true,
+          "placeholder": "",
+          "tooltip": "Comment text. example: Test comment",
+          "description": "Comment text. example: Test comment"
+        }
+      ]
     }
   ]
 }
