@@ -1749,10 +1749,17 @@
         }
       ],
       "output_schema": {
-        "id": "",
-        "comment_text": "",
-        "resource_type": "",
-        "added_ts": ""
+        "hits": [
+          {
+            "id": "",
+            "comment_text": "",
+            "resource_type": "",
+            "added_ts": ""
+          }
+        ],
+        "page": "",
+        "size": "",
+        "total": ""
       }
     },
     {
