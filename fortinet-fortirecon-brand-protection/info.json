@@ -507,6 +507,9 @@
             "expiration_date": "",
             "fuzzer": "",
             "id": "",
+            "ticket_id": "",
+            "notable_change_ts": "",
+            "dns_data": {},
             "is_false_positive": "",
             "is_impersonation": "",
             "is_parked": "",
@@ -517,7 +520,12 @@
             "source": "",
             "source_name": "",
             "status": "",
-            "tags": []
+            "tags": [
+              {
+                "id": "",
+                "name": ""
+              }
+            ]
           }
         ],
         "page": "",
@@ -548,6 +556,17 @@
       ],
       "output_schema": {
         "added_ts": "",
+        "dns_data": {
+          "a_data": [],
+          "mx_data": []
+        },
+        "expiration_date": "",
+        "fuzzer": "",
+        "registration_date": "",
+        "whois_data": {
+          "registrar_whois_server_info": {},
+          "registry_domain_info": {}
+        },
         "domain": "",
         "id": "",
         "notable_change_ts": "",
@@ -988,7 +1007,9 @@
         "screenshot_url": "",
         "status": "",
         "ticket_id": "",
-        "updated_ts": ""
+        "updated_ts": "",
+        "created_ts": "",
+        "index_ts": ""
       }
     },
     {
